@@ -12,7 +12,7 @@ This code uses Python language to parse the json (nested json) and convert it in
 
 ## Tranform
  	The nested json was converted into bigquery compatible format (ndjson) using a python script 	
- 	(Link to code)[]
+ 	(Link to code)[https://github.com/surbhikkabra/BigData/tree/master/src/python]
  
 
  ## Load
@@ -25,7 +25,7 @@ This code uses Python language to parse the json (nested json) and convert it in
  Extracted data from previous job using SQL
 
 ## Tranform
-  SQL queries were written to clean the data (Link to SQL)[]
+  SQL queries were written to clean the data (Link to SQL)[https://github.com/surbhikkabra/BigData/tree/master/src/sql]
 
  ## Load
  Using google cloud console, The cleaned data was pushed to google storage for further analysis
