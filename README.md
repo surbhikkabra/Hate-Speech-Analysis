@@ -7,19 +7,18 @@ This code uses Python language to parse the json (nested json) and convert it in
 
 130M youtube comments from 63K youtube videos were already stored in a remote server on google cloud. The raw comments were in nested json
 
- //Add schema
 
  This raw data was read using a python script running on google cloud instance.
 
 
 ## Tranform
 
-The nested json was converted into bigquery compatible format (ndjson) using a python script (Link to code)[]
+The nested json was converted into bigquery compatible format (ndjson) using a python script (Link to code)[(https://github.com/surbhikkabra/Hate-Speech-Analysis/tree/master/src/python)]
  
 
 ## Load
 
-Another python script was written to upload this data on big query. [Link to code](https://github.com/surbhikkabra/BigData/tree/master/src/python)
+Another python script was written to upload this data on big query. [Link to code](https://github.com/surbhikkabra/Hate-Speech-Analysis/tree/master/src/python)
 
 
 
@@ -30,7 +29,7 @@ Extracted data from previous job using SQL
 
 ## Tranform
 
-SQL queries were written to clean the data [Link to SQL](https://github.com/surbhikkabra/BigData/tree/master/src/sql)
+SQL queries were written to clean the data [Link to SQL](https://github.com/surbhikkabra/Hate-Speech-Analysis/tree/master/src/sql)
 
 ## Load
 
